@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang="fr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width,initial-scale=1.0">
+    <head><title>My profilio page</title>
+   <style>
+       *{
+    margin: auto;
+    padding: auto;
+       }
+       .main {
+    width: 100%;
+    background: url(images/arriere\ plan\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+width: 190px;
+cursor: pointer;
+margin-top:3%;
+margin-left: -3%;
+clip-path: circle(50% at 50%);
+}
+ul{
+    margin-top:4%;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+.ul li a {
+font-size: 16px;
+font-weight: bold;
+text-decoration: none;
+color: rgb(4, 155, 29);
+margin-top: -3%;
+transition: 2s ease;
+}
+ul li a:hover {
+    color: aqua;
+}
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1 {
+    font-size: 65px;
+    color: blueviolet;
+}
+span {
+    color: rgb(180, 148, 2);
+}
+info h3 {
+    font-size: 18px;
+   letter-spacing: 1px;
+   line-height: 24%;
+}
+.img {
+    width: 20%;
+    position:absolute;
+    right: 100px;
+    
+}
+.girl {
+    position: absolute;
+    height: 70%;
+    right: 100%;
+    left: 70%;
+    top: 100px;
+    transform: translate(-50%);
+    cursor: pointer;
+    
+}
+.girl:hover {
+    transform: left 5s ease;
+    left: 70%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar"> 
+            <img src="images/logo 2.png" class="logo" height="120px"> 
+            <ul>
+                <li=none><a href="#">Home</a></li>
+                <li=none><a href="#">About</a></li>
+                <li=none><a href="#">Skills</a></li>
+                <li=none><a href="#">My works</a></li>
+            </ul>
+        </div>
+
+        <section class="container">
+            <div class="info">
+                <h3>Hi, I'm <span> KTPOSSIBLE</span>.</h3>
+                <h2> ETUDIENTE.</h2><br>
+                <h4>Salut! Je suis THELMA. <br> <br>Actuellement je suis etudiant en Licence 1 premiere annee de Fac en Informatique. <br>Ce qui me plait le plus avec la programmation, c'est la creativite qu'elle demande. <br> Car je trouve tres fascinant de construit des site web, des jeux, des systemes, des applications qui fonstionne sans bug. <br>Mon objectif est de continuer a developper mes competence et qui sait, de contribuer a des projet innovants dans le futur. <br> Il est vrai que pour le moment je suis en apprentissage sur le HTML et le CSS <br>mais malgrer ma lente progretion en la matiere, je suis prete a apprendre de nouvelle technologie et a relever de nouveau defis de code.</h4>
+            </div>
+        </section>
+        <div class="image">
+            <image src="images/black girl modifier 00.png" class="girl" >
+        </div>
+
+    </div>
+</body>
